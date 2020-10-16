@@ -1,0 +1,13 @@
+#problem-preview{
+    height: 50vh;
+    width: 40vw;
+    border: 1px solid;
+    background-color: oldlace;
+    overflow: hidden;
+}
+
+#problem-creator{ /* houses everything */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
