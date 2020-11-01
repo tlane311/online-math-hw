@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, {useState} from "react";
 import sampleProblem from '../../../backend/sample-problems';
 
 
@@ -12,7 +12,7 @@ export default function InstructorQuestion({ updateInput }){
                     id="question" 
                     name="question" 
                     rows="25" 
-                    cols="50" 
+                    cols="40" 
                     value ={question}
                     onChange={event => {
                         updateInput(event.target.value);

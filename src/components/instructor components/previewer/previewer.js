@@ -1,5 +1,5 @@
 import React from "react";
-import katex from 'katex';
+//import katex from 'katex';
 
 
 export default function InstructorPreview(props){
